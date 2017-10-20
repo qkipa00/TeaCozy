@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+}
+
+h2, h3,h4,h5,a{
+	opacity: 0.9;
+}
+
+header{
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	position: fixed;
+  	left: 0;
+  	right: 0;
+  	z-index: 5;
+  	background-color: black;
+}
+
+.body{
+	top: 69px;
+	position: relative;
+}
+
+header a{
+	color: seashell;
+	padding: 10px 20px;
+}
+
+header img{
+	height: 50px;
+	padding-left: 10px;
+}
+
+header nav{
+	text-align: right;
+	flex-grow: 1;
+}
+
+.mission{
+	background-image: url("../images/img-mission-background.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.title {
+	background-color: black;
+	width: 1200px;
+	text-align: center;
+}
+
+.title h4, .title h2{
+	margin: 10px 0;
+}
+
+.steep{
+	text-align: center;
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.steep h2{
+	margin: 0;
+}
+
+.photoblock{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1000px;
+}
+
+.photoitem{
+	margin-left: 50px;
+}
+
+.photoitem:first-child{
+	margin-left: 0;
+}
+
+.photoitem h4{
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 0;
+}
+
+.photoitem img{
+	width: 300px;
+	height: 200px;
+}
+
+.location{
+	background-image: url("../images/img-locations-background.jpg");
+	background-size: cover;
+	background-position: 50% 20%;
+	height: 500px;
+	width: 1200px;
+	margin: 50px auto 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.locationcontent{
+	margin-top: 60px;
+}
+
+.location h2{
+	margin: 0;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.blocks{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 980px;
+	text-align: center;
+}
+
+.block1, .block2, .block3{
+	width: 300px;
+	background-color: black;
+}
+
+.blocks h3, .blocks h4{
+	opacity: 1;
+}
+
+footer{
+	height: 200px;
+	text-align: center;
+}
+
+footer h2{
+	margin: 0;
+}
+
+.bottomfooter{
+	margin-left: 20px;
+}
